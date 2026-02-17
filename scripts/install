@@ -22,10 +22,7 @@ _update_venv
 popd > /dev/null
 
 pushd "$install_dir/check-http" > /dev/null
-{
-    ynh_exec_as_app "$install_dir/venv/bin/pip" install -r requirements.txt > /dev/null
-    ynh_exec_as_app "$install_dir/venv/bin/pip" install gunicorn > /dev/null
-}
+ynh_exec_as_app "$install_dir/venv/bin/pip" install -e . > /dev/null
 popd > /dev/null
 
 #=================================================

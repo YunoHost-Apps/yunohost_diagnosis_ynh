@@ -8,7 +8,7 @@ name = "Yunohost Diagnosis"
 description.en = "diagnosis.yunohost.org package"
 description.fr = "diagnosis.yunohost.org package"
 
-version = "1.0~ynh1"
+version = "1.1~ynh1"
 
 maintainers = ["salamandar"]
 
